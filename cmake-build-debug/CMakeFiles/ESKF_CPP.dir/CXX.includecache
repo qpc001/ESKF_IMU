@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/msi/sync2/utils/ESKF_CPP/tic_toc.hpp
+ctime
+-
+cstdlib
+-
+chrono
+-
+
+/home/msi/sync2/utils/ESKF_CPP/utils.cpp
+utils.h
+/home/msi/sync2/utils/ESKF_CPP/utils.h
+
+/home/msi/sync2/utils/ESKF_CPP/utils.h
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Dense
+-
+sophus/so3.hpp
+-
+sophus/se3.hpp
+-
+vector
+-
+memory
+-
+string
+-
+fstream
+-
+deque
+-
+iomanip
+-
+tic_toc.hpp
+/home/msi/sync2/utils/ESKF_CPP/tic_toc.hpp
+

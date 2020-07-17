@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/msi/sync2/utils/ESKF_CPP
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/sync2/utils/ESKF_CPP/cmake-build-debug
