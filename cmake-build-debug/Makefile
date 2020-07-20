@@ -144,44 +144,17 @@ ESKF_CPP/fast:
 .PHONY : ESKF_CPP/fast
 
 #=============================================================================
-# Target rules for targets named headers
+# Target rules for targets named header
 
 # Build rule for target.
-headers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 headers
-.PHONY : headers
+header: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 header
+.PHONY : header
 
 # fast build rule for target.
-headers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headers.dir/build.make CMakeFiles/headers.dir/build
-.PHONY : headers/fast
-
-ESKF.o: ESKF.cpp.o
-
-.PHONY : ESKF.o
-
-# target to build an object file
-ESKF.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/ESKF.cpp.o
-.PHONY : ESKF.cpp.o
-
-ESKF.i: ESKF.cpp.i
-
-.PHONY : ESKF.i
-
-# target to preprocess a source file
-ESKF.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/ESKF.cpp.i
-.PHONY : ESKF.cpp.i
-
-ESKF.s: ESKF.cpp.s
-
-.PHONY : ESKF.s
-
-# target to generate assembly for a file
-ESKF.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/ESKF.cpp.s
-.PHONY : ESKF.cpp.s
+header/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/header.dir/build.make CMakeFiles/header.dir/build
+.PHONY : header/fast
 
 main.o: main.cpp.o
 
@@ -210,32 +183,59 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-utils.o: utils.cpp.o
+src/ESKF.o: src/ESKF.cpp.o
 
-.PHONY : utils.o
+.PHONY : src/ESKF.o
 
 # target to build an object file
-utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/utils.cpp.o
-.PHONY : utils.cpp.o
+src/ESKF.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.o
+.PHONY : src/ESKF.cpp.o
 
-utils.i: utils.cpp.i
+src/ESKF.i: src/ESKF.cpp.i
 
-.PHONY : utils.i
+.PHONY : src/ESKF.i
 
 # target to preprocess a source file
-utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/utils.cpp.i
-.PHONY : utils.cpp.i
+src/ESKF.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.i
+.PHONY : src/ESKF.cpp.i
 
-utils.s: utils.cpp.s
+src/ESKF.s: src/ESKF.cpp.s
 
-.PHONY : utils.s
+.PHONY : src/ESKF.s
 
 # target to generate assembly for a file
-utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/utils.cpp.s
-.PHONY : utils.cpp.s
+src/ESKF.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.s
+.PHONY : src/ESKF.cpp.s
+
+src/utils.o: src/utils.cpp.o
+
+.PHONY : src/utils.o
+
+# target to build an object file
+src/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/src/utils.cpp.o
+.PHONY : src/utils.cpp.o
+
+src/utils.i: src/utils.cpp.i
+
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
+
+src/utils.s: src/utils.cpp.s
+
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESKF_CPP.dir/build.make CMakeFiles/ESKF_CPP.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
 
 # Help Target
 help:
@@ -245,17 +245,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... headers"
+	@echo "... header"
 	@echo "... ESKF_CPP"
-	@echo "... ESKF.o"
-	@echo "... ESKF.i"
-	@echo "... ESKF.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... utils.o"
-	@echo "... utils.i"
-	@echo "... utils.s"
+	@echo "... src/ESKF.o"
+	@echo "... src/ESKF.i"
+	@echo "... src/ESKF.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 .PHONY : help
 
 

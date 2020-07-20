@@ -3,6 +3,8 @@ project(ESKF_CPP)
 
 set(CMAKE_CXX_STANDARD 11)
 
+include_directories(include)
+
 #Eigen
 find_package(Eigen3 REQUIRED)
 include_directories(${Eigen_INCLUDE_DIRS})
@@ -12,7 +14,8 @@ include_directories(/usr/include/eigen3)
 find_package(Sophus REQUIRED)
 include_directories(${Sophus_INCLUDE_DIRS})
 
-FILE(GLOB_RECURSE LibFiles "include/*.h")
-add_custom_target(headers SOURCES ${LibFiles})
+File(GLOB_RECURSE srcs "src/*.cpp")
+FILE(GLOB_RECURSE header "include/*.h")
+add_custom_target(header)
 
-add_executable(ESKF_CPP  utils.cpp ESKF.cpp main.cpp)
+add_executable(ESKF_CPP main.cpp ${srcs})

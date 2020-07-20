@@ -77,35 +77,9 @@ include CMakeFiles/ESKF_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ESKF_CPP.dir/flags.make
 
-CMakeFiles/ESKF_CPP.dir/utils.cpp.o: CMakeFiles/ESKF_CPP.dir/flags.make
-CMakeFiles/ESKF_CPP.dir/utils.cpp.o: ../utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ESKF_CPP.dir/utils.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ESKF_CPP.dir/utils.cpp.o -c /home/msi/sync2/utils/ESKF_CPP/utils.cpp
-
-CMakeFiles/ESKF_CPP.dir/utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ESKF_CPP.dir/utils.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msi/sync2/utils/ESKF_CPP/utils.cpp > CMakeFiles/ESKF_CPP.dir/utils.cpp.i
-
-CMakeFiles/ESKF_CPP.dir/utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ESKF_CPP.dir/utils.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msi/sync2/utils/ESKF_CPP/utils.cpp -o CMakeFiles/ESKF_CPP.dir/utils.cpp.s
-
-CMakeFiles/ESKF_CPP.dir/ESKF.cpp.o: CMakeFiles/ESKF_CPP.dir/flags.make
-CMakeFiles/ESKF_CPP.dir/ESKF.cpp.o: ../ESKF.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ESKF_CPP.dir/ESKF.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ESKF_CPP.dir/ESKF.cpp.o -c /home/msi/sync2/utils/ESKF_CPP/ESKF.cpp
-
-CMakeFiles/ESKF_CPP.dir/ESKF.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ESKF_CPP.dir/ESKF.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msi/sync2/utils/ESKF_CPP/ESKF.cpp > CMakeFiles/ESKF_CPP.dir/ESKF.cpp.i
-
-CMakeFiles/ESKF_CPP.dir/ESKF.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ESKF_CPP.dir/ESKF.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msi/sync2/utils/ESKF_CPP/ESKF.cpp -o CMakeFiles/ESKF_CPP.dir/ESKF.cpp.s
-
 CMakeFiles/ESKF_CPP.dir/main.cpp.o: CMakeFiles/ESKF_CPP.dir/flags.make
 CMakeFiles/ESKF_CPP.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ESKF_CPP.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ESKF_CPP.dir/main.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ESKF_CPP.dir/main.cpp.o -c /home/msi/sync2/utils/ESKF_CPP/main.cpp
 
 CMakeFiles/ESKF_CPP.dir/main.cpp.i: cmake_force
@@ -116,18 +90,44 @@ CMakeFiles/ESKF_CPP.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ESKF_CPP.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msi/sync2/utils/ESKF_CPP/main.cpp -o CMakeFiles/ESKF_CPP.dir/main.cpp.s
 
+CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.o: CMakeFiles/ESKF_CPP.dir/flags.make
+CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.o: ../src/ESKF.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.o -c /home/msi/sync2/utils/ESKF_CPP/src/ESKF.cpp
+
+CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msi/sync2/utils/ESKF_CPP/src/ESKF.cpp > CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.i
+
+CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msi/sync2/utils/ESKF_CPP/src/ESKF.cpp -o CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.s
+
+CMakeFiles/ESKF_CPP.dir/src/utils.cpp.o: CMakeFiles/ESKF_CPP.dir/flags.make
+CMakeFiles/ESKF_CPP.dir/src/utils.cpp.o: ../src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ESKF_CPP.dir/src/utils.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ESKF_CPP.dir/src/utils.cpp.o -c /home/msi/sync2/utils/ESKF_CPP/src/utils.cpp
+
+CMakeFiles/ESKF_CPP.dir/src/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ESKF_CPP.dir/src/utils.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/msi/sync2/utils/ESKF_CPP/src/utils.cpp > CMakeFiles/ESKF_CPP.dir/src/utils.cpp.i
+
+CMakeFiles/ESKF_CPP.dir/src/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ESKF_CPP.dir/src/utils.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/msi/sync2/utils/ESKF_CPP/src/utils.cpp -o CMakeFiles/ESKF_CPP.dir/src/utils.cpp.s
+
 # Object files for target ESKF_CPP
 ESKF_CPP_OBJECTS = \
-"CMakeFiles/ESKF_CPP.dir/utils.cpp.o" \
-"CMakeFiles/ESKF_CPP.dir/ESKF.cpp.o" \
-"CMakeFiles/ESKF_CPP.dir/main.cpp.o"
+"CMakeFiles/ESKF_CPP.dir/main.cpp.o" \
+"CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.o" \
+"CMakeFiles/ESKF_CPP.dir/src/utils.cpp.o"
 
 # External object files for target ESKF_CPP
 ESKF_CPP_EXTERNAL_OBJECTS =
 
-ESKF_CPP: CMakeFiles/ESKF_CPP.dir/utils.cpp.o
-ESKF_CPP: CMakeFiles/ESKF_CPP.dir/ESKF.cpp.o
 ESKF_CPP: CMakeFiles/ESKF_CPP.dir/main.cpp.o
+ESKF_CPP: CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.o
+ESKF_CPP: CMakeFiles/ESKF_CPP.dir/src/utils.cpp.o
 ESKF_CPP: CMakeFiles/ESKF_CPP.dir/build.make
 ESKF_CPP: CMakeFiles/ESKF_CPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ESKF_CPP"

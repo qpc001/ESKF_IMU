@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/msi/sync2/utils/ESKF_CPP/include"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"/>
@@ -67,6 +68,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/msi/sync2/utils/ESKF_CPP/include"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"/>
@@ -83,30 +85,24 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="headers">
+			<Target title="header">
 				<Option working_dir="/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 headers"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 header"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/msi/sync2/utils/ESKF_CPP/ESKF.cpp">
-			<Option target="ESKF_CPP"/>
-		</Unit>
-		<Unit filename="/home/msi/sync2/utils/ESKF_CPP/ESKF.h">
-			<Option target="ESKF_CPP"/>
-		</Unit>
 		<Unit filename="/home/msi/sync2/utils/ESKF_CPP/main.cpp">
 			<Option target="ESKF_CPP"/>
 		</Unit>
-		<Unit filename="/home/msi/sync2/utils/ESKF_CPP/utils.cpp">
+		<Unit filename="/home/msi/sync2/utils/ESKF_CPP/src/ESKF.cpp">
 			<Option target="ESKF_CPP"/>
 		</Unit>
-		<Unit filename="/home/msi/sync2/utils/ESKF_CPP/utils.h">
+		<Unit filename="/home/msi/sync2/utils/ESKF_CPP/src/utils.cpp">
 			<Option target="ESKF_CPP"/>
 		</Unit>
 		<Unit filename="/home/msi/sync2/utils/ESKF_CPP/CMakeLists.txt">

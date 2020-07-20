@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ESKF_CPP.dir/ESKF.cpp.o"
   "CMakeFiles/ESKF_CPP.dir/main.cpp.o"
-  "CMakeFiles/ESKF_CPP.dir/utils.cpp.o"
+  "CMakeFiles/ESKF_CPP.dir/src/ESKF.cpp.o"
+  "CMakeFiles/ESKF_CPP.dir/src/utils.cpp.o"
   "ESKF_CPP"
   "ESKF_CPP.pdb"
 )

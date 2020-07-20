@@ -84,7 +84,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/ESKF_CPP.dir/clean
-clean: CMakeFiles/headers.dir/clean
+clean: CMakeFiles/header.dir/clean
 
 .PHONY : clean
 
@@ -116,31 +116,31 @@ CMakeFiles/ESKF_CPP.dir/clean:
 .PHONY : CMakeFiles/ESKF_CPP.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/headers.dir
+# Target rules for target CMakeFiles/header.dir
 
 # All Build rule for target.
-CMakeFiles/headers.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headers.dir/build.make CMakeFiles/headers.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headers.dir/build.make CMakeFiles/headers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num= "Built target headers"
-.PHONY : CMakeFiles/headers.dir/all
+CMakeFiles/header.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/header.dir/build.make CMakeFiles/header.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/header.dir/build.make CMakeFiles/header.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles --progress-num= "Built target header"
+.PHONY : CMakeFiles/header.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/headers.dir/rule: cmake_check_build_system
+CMakeFiles/header.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/headers.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/header.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/msi/sync2/utils/ESKF_CPP/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/headers.dir/rule
+.PHONY : CMakeFiles/header.dir/rule
 
 # Convenience name for target.
-headers: CMakeFiles/headers.dir/rule
+header: CMakeFiles/header.dir/rule
 
-.PHONY : headers
+.PHONY : header
 
 # clean rule for target.
-CMakeFiles/headers.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/headers.dir/build.make CMakeFiles/headers.dir/clean
-.PHONY : CMakeFiles/headers.dir/clean
+CMakeFiles/header.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/header.dir/build.make CMakeFiles/header.dir/clean
+.PHONY : CMakeFiles/header.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

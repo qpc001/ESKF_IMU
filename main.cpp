@@ -7,8 +7,8 @@ int main() {
     std::deque<MotionData> pose_gt;
     std::deque<Imu_msg> imu_msgs;
 
-    LoadData("./imu_noise.txt",imu_msgs);
-    LoadData("./traj_gt.txt",pose_gt);
+    LoadData("../data/imu_noise.txt",imu_msgs);
+    LoadData("../data/traj_gt.txt",pose_gt);
 
     std::cout<<"IMU Msg Size:"<<imu_msgs.size()<<std::endl;
     std::cout<<"Ground True Pose Size:"<<pose_gt.size()<<std::endl;
